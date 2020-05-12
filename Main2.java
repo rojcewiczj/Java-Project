@@ -1,5 +1,4 @@
-public class Main{
-
+public class Main2 {
     public static void main(String[] args){
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;
@@ -16,9 +15,4 @@ public class Main{
         System.out.print("Period (Years): ");
         byte years = scanner.nextByte();
         int numberOfPayments = years * MONTHS_IN_YEAR;
-
-        
-
-
-    }
 }
